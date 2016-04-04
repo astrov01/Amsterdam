@@ -1353,6 +1353,11 @@
 
 /* Image */
 
+	#imageid{
+		width: 200px;
+		height: 250px;
+	}
+
 	.image {
 		position: relative;
 		display: inline-block;
@@ -1401,6 +1406,8 @@
 				margin: 0 auto;
 				width: auto;
 			}
+
+
 
 /* Button */
 
