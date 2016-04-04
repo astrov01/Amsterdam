@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0f144cf-fbb5-4916-b4e2-947ad8838fcf" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Victor Espinoza\Documents\GitHub\Amsterdam\left-sidebar.html" afterPath="$PROJECT_DIR$/quehacer.html" />
-      <change type="MOVED" beforePath="C:\Users\Victor Espinoza\Documents\GitHub\Amsterdam\no-sidebar.html" afterPath="$PROJECT_DIR$/postal.html" />
-      <change type="MOVED" beforePath="C:\Users\Victor Espinoza\Documents\GitHub\Amsterdam\right-sidebar.html" afterPath="$PROJECT_DIR$/transporte.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postal.html" afterPath="$PROJECT_DIR$/postal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quehacer.html" afterPath="$PROJECT_DIR$/quehacer.html" />
     </list>
     <ignored path="Amsterdam.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,21 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quehacer.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="quehacer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quehacer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63176894">
+            <state vertical-scroll-proportion="-75.0">
               <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#article#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postal.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="postal.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/postal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5006258">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,8 +78,8 @@
         <option value="$PROJECT_DIR$/left-sidebar.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/transporte.html" />
-        <option value="$PROJECT_DIR$/postal.html" />
         <option value="$PROJECT_DIR$/quehacer.html" />
+        <option value="$PROJECT_DIR$/postal.html" />
       </list>
     </option>
   </component>
@@ -308,18 +307,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/postal.html">
+    <entry file="file://$PROJECT_DIR$/quehacer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-75.0">
+          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#article#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quehacer.html">
+    <entry file="file://$PROJECT_DIR$/postal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63176894">
-          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5006258">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>
