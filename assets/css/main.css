@@ -2375,3 +2375,20 @@
 	#imgpost {
 		margin-left: 12%;
 	}*/
+
+img {
+
+}
+
+figure{
+	cursor: pointer;
+	-webkit-box-shadow: 0 0 0px rgba(0,0,0,.5);
+}
+
+figure img{
+	-webkit-transition: all 1.3s;
+}
+
+figure:hover img {
+	-webkit-transform: scale(1.3);
+}
