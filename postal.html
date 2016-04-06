@@ -70,49 +70,118 @@
 
 									<!-- Content -->
 
-										<article>
+
 											<header class="major">
-												<h2>No Sidebar</h2>
-												<p>Sidebars are not welcome here</p>
+												<h2>Envía una postal de este maravilloso lugar</h2>
 											</header>
 
-											<span class="image featured"><img src="images/pic08.jpg" alt="" /></span>
+											<div id="contenido" align="center" text-align="center">
 
-											<div class="content-box-large">
+												<form name="enviarPostal" method="get" action="indexaux.html">
+													<table summary="Formulario">
+														<tbody>
+														<tr>
+															<td>
+																<label for="nombre">Nombre: *</label>
+															</td>
+															<td>
+																<input name="nombre" id="nombre" placeholder="Tu nombre" maxlength="50" size="25" required="true" alt="Su nombre" type="text" style= "border: 1px solid #666666";>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<label for="email">Email de tu amigo o familiar: *</label>
+															</td>
+															<td>
+																<input name="email" id="email" placeholder="Email" maxlength="80" size="35" required="true" alt="Email de su amigo" type="email" style= "border: 1px solid #666666";>
+															</td>
+														</tr>
+														<tr>
+															<td> Postales:
+															</td>
+														</tr>
+														<tr>
+															<td colspan="5">
 
+															<div id="postales">
 
+																<div id="primeras">
+
+																	<div id="postal_1">
+																		<img id="imgpost" src="images/Amsterdam2_Cambiada.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
+																		<h4>Amsterdam 1</h4>
+																	</div>
+
+																	<div id="postal_2">
+																		<img id="imgpost" src="images/Amsterdam3.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
+																		<h4>Amsterdam 2</h4>
+																	</div>
+
+																</div>
+
+																<div id="segundas">
+
+																	<div id="postal_3">
+																		<img id="imgpost" src="images/Amsterdam4.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
+																		<h4>Amsterdam 3</h4>
+																	</div>
+
+																	<div id="postal_4">
+																		<img id="imgpost" src="images/AmsterdamLogo_Cambiada.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
+																		<h4>Amsterdam 4</h4>
+																	</div>
+
+																</div>
+
+															</div>
+
+															</td>
+														</tr>
+														<tr>
+															<td colspan="5">
+																<h4 id="imgpost">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Amsterdam 3 &nbsp &nbsp &nbsp &nbsp
+																	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+																	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+																	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Amsterdam 4</h4>
+															</td>
+														<tr>
+															<td>
+																<label for="postal">Seleccione la postal: *</label>
+															</td>
+															<td>
+																<select style="width: auto; border: 1px solid #666666" name="postal" size="1" required="true" type="text">
+																	<option value="images/Amsterdam2_Cambiada.jpg">01 Amsterdam 1
+																	</option>
+																	<option value="images/Amsterdam3.jpg">02 Amsterdam 2
+																	</option>
+																	<option value="images/Amsterdam4.jpg">03 Amsterdam 3
+																	</option>
+																	<option value="images/AmsterdamLogo_Cambiada.jpg">04 Amsterdam 4
+																	</option>
+																</select>
+															</td>
+														</tr>
+														<tr>
+
+														</tr>
+														<tr>
+															<td>
+																<label for="comments">Mensaje: *</label>
+															</td>
+															<td>
+																<textarea name="comments" placeholder="Comentarios" maxlength="300" cols="50" rows="5" style="resize:none; border: 1px solid #666666" required="true">Comentarios</textarea>
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2" style="text-align:center">
+																<input value="Enviar" alt="Enviar" type="submit" id="enviar">
+															</td>
+														</tr>
+														</tbody>
+													</table>
+												</form>
 											</div>
 
-
-
-											<h3>More intriguing information</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-											justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-											ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-											vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-											Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-											rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-											Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-											ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-											vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-											Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-											rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-											Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-											Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus lorem ipsum
-											dolor sit amet phasellus consequat.</p>
-
-											<p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-											quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-											Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-											fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-											Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-											ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-											vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-											fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-											Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-											Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus sed feugiat lorem ipsum
-											dolor nullam blandit tempus.</p>
-										</article>
 
 								</div>
 							</div>
