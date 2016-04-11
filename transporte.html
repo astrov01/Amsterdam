@@ -55,6 +55,7 @@
 				}
 			}
 
+
 		</script>
 
 
@@ -78,7 +79,7 @@
 											<ul>
 												<li><a href="index.html">Inicio</a></li>
 												<li><a href="quehacer.html">¿Qué hacer en Amsterdam?</a></li>
-												<li><a href="transporte.html">Transporte</a></li>
+												<li class="current_page_item"><a href="transporte.html">Transporte</a></li>
 												<li><a href="postal.html">Envia una postal</a></li>
 											</ul>
 										</nav>
@@ -126,23 +127,25 @@
 													<p style="text-align: justify;">Ordenados por utilidad, estos son los principales medios de transporte en Amsterdam:</p>
 
 													<ul class=listadoTransporte">
+
+														<div>
 														<li>
 															<tr>
 																<td>
-																	<img src="images/tranvia.jpg" alt="Tranvias en Amsterdam">
-																</td>
-																<td>
-																	<div><b>Tranvía</b></div>
+																	<b>Tranvía</b>
+																	<p><img style="float: left;" src="images/tranvia.jpg" alt="Tranvias en Amsterdam">
 																	Si hay un medio de transporte lo suficientemente extendido en Amsterdam ese es
-																	el tranvía. Actualmente en la ciudad circulan más de 200 tranvías.
+																		el tranvía. Actualmente en la ciudad circulan más de 200 tranvías.</p>
 																</td>
 															</tr>
-															http://goanimate.com/videos/0kSJ725R0PW0?utm_source=linkshare&utm_medium=linkshare&utm_campaign=usercontent
+
 														</li>
+														</div>
+
 														<li>
 															<tr>
 																<td>
-																	<img src="images/autobus.jpg" alt="Autobuses en Amsterdam">
+																	<img style="float: left; margin-right: 5%;" src="images/autobus.jpg" alt="Autobuses en Amsterdam">
 																</td>
 																<td>
 																	<div><b>Autobús</b></div>
@@ -154,7 +157,7 @@
 														<li>
 															<tr>
 																<td>
-																	<img src="images/bicicleta.jpg" alt="Bicicletas en Amsterdam">
+																	<img style="float: left;" src="images/bicicleta.jpg" alt="Bicicletas en Amsterdam">
 																</td>
 																<td>
 																	<div><b>Bicicleta</b></div>
@@ -166,7 +169,7 @@
 														<li>
 															<tr>
 																<td>
-																	<img src="images/taxi.jpg" alt="Taxis en Amsterdam">
+																	<img style="float: left;" src="images/taxi.jpg" alt="Taxis en Amsterdam">
 																</td>
 																<td>
 																	<div><b>Taxi</b></div>
@@ -178,7 +181,7 @@
 														<li>
 															<tr>
 																<td>
-																	<img src="images/metro.jpg" alt="Metro en Amsterdam">
+																	<img style="float: left;" src="images/metro.jpg" alt="Metro en Amsterdam">
 																</td>
 																<td>
 																	<div><b>Metro</b></div>
@@ -226,10 +229,25 @@
 														<h2>Mapas de transportes disponibles</h2>
 													</header>
 													<ul class="style2">
-														<li><a href="#">Mapa metro</a></li>
+														<div id="image">
+															<label>Mapa Metro</label>
+															</br>
+															<a title="Plano de metro de Amsterdam" rel="thumbnail" href="https://cdn.civitatis.com/guias/amsterdam/imagenes/plano-metro.png">
+																<img alt="Canales" src="https://cdn.civitatis.com/guias/amsterdam/imagenes/plano-metro-mini.png"></a>
+														</div>
+
+														<div id="image">
+															<label>Mapa Tram</label>
+															</br>
+															<a title="Plano de tranvía de Ámsterdam" rel="thumbnail" href="https://cdn.civitatis.com/guias/amsterdam/imagenes/plano-tranvias.png">
+																<img alt="Canales" src="https://cdn.civitatis.com/guias/amsterdam/imagenes/plano-tranvias-mini.png"></a>
+														</div>
+
+														<!--
 														<li><a href="#">Mapa Tram</a></li>
 														<li><a href="#">Mapa Sprinter</a></li>
 														<li><a href="#">Mapa en bicicleta</a></li>
+													    -->
 													</ul>
 												</section>
 

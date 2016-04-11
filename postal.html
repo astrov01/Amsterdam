@@ -13,6 +13,25 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+		<script language="JavaScript">
+			function pregunta(){
+
+				var mensaje = confirm('¿Estas seguro de enviar este formulario?');
+
+				if(mensaje) {
+					alert("Se ha enviado su postal, espero la disfrute.");
+					document.tuformulario.submit();
+				}
+				else{
+						alert("Has cancelado la postal");
+					}
+
+
+			}
+		</script>
+
+
 	</head>
 	<body class="no-sidebar">
 		<div id="page-wrapper">
@@ -34,7 +53,7 @@
 												<li><a href="index.html">Inicio</a></li>
 												<li><a href="quehacer.html">¿Qué hacer en Amsterdam?</a></li>
 												<li><a href="transporte.html">Transporte</a></li>
-												<li><a href="postal.html">Envia una postal</a></li>
+												<li class="current_page_item"><a href="postal.html">Envia una postal</a></li>
 											</ul>
 										</nav>
 
@@ -60,7 +79,7 @@
 
 											<div id="contenido" align="center" text-align="center">
 
-												<form name="enviarPostal" method="get" action="indexaux.html">
+												<form name="enviarPostal" method="get" action="postal.html">
 													<table summary="Formulario">
 														<tbody>
 														<tr>
@@ -178,7 +197,7 @@
 														<div>
 															<tr style="">
 															<td colspan="2" style="text-align:center;">
-																<input style="margin-top: 5%;" value="Enviar" alt="Enviar" type="submit" id="enviar">
+																<input style="margin-top: 5%;" value="Enviar" alt="Enviar" type="submit" id="enviar" onclick="pregunta()">
 															</td>
 															</tr>
 														</div>
