@@ -92,20 +92,20 @@
 														<tr>
 
 																	<td>
-																		<div id="postal_1" style="margin-left: 20%" class="">
-																			<figure>
+																		<div class="6u 12u(mobile)" id="postal_1" style="margin-left: 20%">
+																			<figure <!--onclick="javascript:void(document.getElementById('postal_1').style.border = '2em solid black')"-->
 																				<img src="images/Amsterdam2_Cambiada.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
 																			</figure>
-																				<h4 style=margin-left:30%>Amsterdam 1</h4>
+																				<h4 style=margin-left:50%>Amsterdam 1</h4>
 																		</div>
 																	</td>
 
 																	<td>
-																		<div id="postal_2" style="margin-left: 20%">
+																		<div class="6u 12u(mobile)" id="postal_2" style="margin-left: 20%">
 																			<figure>
 																				<img src="images/Amsterdam3.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
 																			</figure>
-																				<h4 style=margin-left:30%>Amsterdam 2</h4>
+																				<h4 style=margin-left:50%>Amsterdam 2</h4>
 																		</div>
 																	</td>
 
@@ -115,20 +115,20 @@
 														<tr>
 
 																	<td>
-																		<div id="postal_3" style="margin-left: 20%">
+																		<div class="6u 12u(mobile)" id="postal_3" style="margin-left: 20%">
 																			<figure>
 																			<img src="images/Amsterdam4.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
 																			</figure>
-																				<h4 style=margin-left:30%>Amsterdam 3</h4>
+																				<h4 style=margin-left:50%>Amsterdam 3</h4>
 																		</div>
 																	</td>
 
 																	<td>
-																		<div id="postal_4" style="margin-left: 20%">
+																		<div class="6u 12u(mobile)" id="postal_4" style="margin-left: 20%">
 																			<figure>
 																				<img src="images/AmsterdamLogo_Cambiada.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
 																			</figure>
-																				<h4 style=margin-left:30%>Amsterdam 4</h4>
+																				<h4 style=margin-left:50%>Amsterdam 4</h4>
 																		</div>
 																	</td>
 														</tr>
@@ -145,19 +145,26 @@
 															</td>
 															<td>
 
-																<select style="width: auto; border: 1px solid #666666" name="postal" size="1" required="true" type="text">
-																	<option value="images/Amsterdam2_Cambiada.jpg">01 Amsterdam 1
+																<select style="width: auto; border: 1px solid #666666"
+																		name="postal" size="1" required="true"
+																		type="text">
+																	<option selected disabled>
+																	</option>
+																	<option value="images/Amsterdam2_Cambiada.jpg">01
+																		Amsterdam 1
 																	</option>
 																	<option value="images/Amsterdam3.jpg">02 Amsterdam 2
 																	</option>
 																	<option value="images/Amsterdam4.jpg">03 Amsterdam 3
 																	</option>
-																	<option value="images/AmsterdamLogo_Cambiada.jpg">04 Amsterdam 4
+																	<option value="images/AmsterdamLogo_Cambiada.jpg">04
+																		Amsterdam 4
 																	</option>
+
 																</select>
+
 															</td>
-														</tr>
-														<tr>
+
 
 														</tr>
 														<tr>
@@ -165,7 +172,7 @@
 																<label for="comments">Mensaje: *</label>
 															</td>
 															<td>
-																<textarea name="comments" placeholder="Comentarios" maxlength="300" cols="50" rows="5" style="resize:none; border: 1px solid #666666" required="true">Comentarios</textarea>
+																<textarea name="comments" placeholder="Comentarios" maxlength="300" cols="50" rows="5" style="resize:none; border: 1px solid #666666" required="true"></textarea>
 															</td>
 														</tr>
 														<div>
