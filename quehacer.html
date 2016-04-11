@@ -14,49 +14,6 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
-		<script>
-			function fallo(e)
-			{
-				switch (e.target.error.code) {
-					case e.target.error.MEDIA_ERR_ABORTED:
-						alert('Has abortado el playback.');
-						break;
-					case e.target.error.MEDIA_ERR_NETWORK:
-						alert('Error en la red.');
-						break;
-					case e.target.error.MEDIA_ERR_DECODE:
-						alert('Problema con los Codecs.');
-						break;
-					case
-					e.target.error.MEDIA_ERR_SRC_NOT_SUPPORTED:
-						alert(
-								'Formato no soportado o archivo no encontrado.');
-						break;
-					default:
-						alert('Ha ocurrido un error desconocido.');
-						break;
-				}
-			}
-
-			function error(e)
-			{
-				switch (e.target.error.code) {
-					case e.target.error.MEDIA_ERR_ABORTED:alert('Has abortado el playback.');
-						break;
-					case e.target.error.MEDIA_ERR_NETWORK: alert('Error en la red.');
-						break;
-					case e.target.error.MEDIA_ERR_DECODE: alert('Problema de codificación.');
-						break;
-					case
-					e.target.error.MEDIA_ERR_SRC_NOT_SUPPORTED:alert('Formato no soportado o archivo no encontrado.');
-						break;
-					default: alert('Ha ocurrido un error desconocido.');
-						break;
-				}
-			}
-
-		</script>
-
 	</head>
 	<body class="left-sidebar">
 		<div id="page-wrapper">
@@ -165,11 +122,6 @@
 													<div class="nieto1"><h1>Video</h1>
 
 														<iframe width="780" height="470" src="https://www.youtube.com/embed/iVpF6-zMtxY" frameborder="0" allowfullscreen></iframe>
-													</div>
-
-													<div class="nieto1"><h1>Video</h1>
-														<iframe scrolling="no" allowTransparency="true" allowfullscreen frameborder="0" width="620" height="350" src="https://goanimate.com/player/embed/0kSJ725R0PW0"></iframe>
-
 													</div>
 
 													<h3>Visitar de interés:</h3>
