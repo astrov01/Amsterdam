@@ -6,3 +6,5 @@ Facebook: Usuario -> city.knowledge.amsterdam@gmail.com
 	  P�gina -> City Knowledge Amsterdam
 
 	  url pagina = https://www.facebook.com/CityKnowledgeAmsterdam/
+
+	  Constraseña 7777Amsterdam
