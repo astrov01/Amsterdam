@@ -2395,3 +2395,33 @@ figure img{
 figure:hover img {
 	-webkit-transform: scale(1.3);
 }
+
+#googlemaps {
+	 position: relative;
+	 padding-bottom: 75%; // This is the aspect ratio
+ height: 0;
+	 overflow: hidden;
+ }
+#googlemaps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
