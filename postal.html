@@ -8,6 +8,22 @@
 	<head>
 		<title>Amsterdam</title>
 		<meta charset="utf-8" />
+
+		<link rel="icon" href="images/icono2.jpg">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"/>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -101,60 +117,44 @@
 														</tbody>
 														</table>
 
-														<table summary="FormularioImagen">
-														<tbody>
-														<tr>
-															<td> Postales:
-															</td>
-														</tr>
 
-														<tr>
+														<div class="row">
+															<div class="col-md-6" id="postal_1">
+																<figure>
+																	<img src="images/Amsterdam4.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
+																</figure>
+																<h4>Amsterdam 3</h4>
+															</div>
 
-																	<td>
-																		<div class="6u 12u(mobile)" id="postal_1" style="margin-left: 20%">
-																			<figure <!--onclick="javascript:void(document.getElementById('postal_1').style.border = '2em solid black')"-->
-																				<img src="images/Amsterdam2_Cambiada.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
+
+															<div class="col-md-6" id="postal_2">
+																<figure>
+																	<img src="images/AmsterdamLogo_Cambiada.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
+																</figure>
+																<h4>Amsterdam 4</h4>
+															</div>
+
+														</div>
+
+
+
+														<div class="row">
+															<div class="col-md-6" id="postal_3">
+																<figure>
+																	<img src="images/Amsterdam3.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
+																</figure>
+																<h4>Amsterdam 3</h4>
+															</div>
+
+
+															<div class="col-md-6" id="postal_4">
+																<figure>
+																	<img src="images/Amsterdam5.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
 																			</figure>
-																				<h4 style=margin-left:50%>Amsterdam 1</h4>
+																				<h4>Amsterdam 4</h4>
 																		</div>
-																	</td>
 
-																	<td>
-																		<div class="6u 12u(mobile)" id="postal_2" style="margin-left: 20%">
-																			<figure>
-																				<img src="images/Amsterdam3.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
-																			</figure>
-																				<h4 style=margin-left:50%>Amsterdam 2</h4>
-																		</div>
-																	</td>
-
-														</tr>
-
-
-														<tr>
-
-																	<td>
-																		<div class="6u 12u(mobile)" id="postal_3" style="margin-left: 20%">
-																			<figure>
-																			<img src="images/Amsterdam4.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
-																			</figure>
-																				<h4 style=margin-left:50%>Amsterdam 3</h4>
-																		</div>
-																	</td>
-
-																	<td>
-																		<div class="6u 12u(mobile)" id="postal_4" style="margin-left: 20%">
-																			<figure>
-																				<img src="images/AmsterdamLogo_Cambiada.jpg" width="400px" height="300px" alt="Selecciona la imagen de tu postal">
-																			</figure>
-																				<h4 style=margin-left:50%>Amsterdam 4</h4>
-																		</div>
-																	</td>
-														</tr>
-
-														</tbody>
-														</table>
-
+														</div>
 
 														<table summary="FormularioSeleccion">
 														<tbody>
@@ -164,23 +164,37 @@
 															</td>
 															<td>
 
-																<select style="width: auto; border: 1px solid #666666"
+																<!--<select style="width: auto; border: 1px solid #666666"
 																		name="postal" size="1" required="true"
 																		type="text">
 																	<option selected disabled>
 																	</option>
-																	<option value="images/Amsterdam2_Cambiada.jpg">01
+																	<option value="images/Amsterdam2_Cambiada.jpg">
 																		Amsterdam 1
 																	</option>
-																	<option value="images/Amsterdam3.jpg">02 Amsterdam 2
+																	<option value="images/Amsterdam3.jpg">Amsterdam 2
 																	</option>
-																	<option value="images/Amsterdam4.jpg">03 Amsterdam 3
+																	<option value="images/Amsterdam4.jpg">Amsterdam 3
 																	</option>
-																	<option value="images/AmsterdamLogo_Cambiada.jpg">04
-																		Amsterdam 4
+																	<option value="images/AmsterdamLogo_Cambiada.jpg">Amsterdam 4
 																	</option>
 
 																</select>
+																-->
+
+
+
+																<div class="dropdown">
+																	<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+																		Elige la postal
+																		<span class="caret"></span>
+																	</button>
+																	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+																		<li><a >Amsterdam 1</a></li>
+																		<li><a >Amsterdam 2</a></li>
+																		<li><a >Amsterdam 3</a></li>
+																	</ul>
+																</div>
 
 															</td>
 
