@@ -55,7 +55,7 @@
 				<div class="inner">
 
 					<!-- Logo -->
-					<h1><a href="www.amsterdamknowledge.esy.es" id="logo">CITY KNOWLEDGE</a></h1>
+					<h1><a href="index.html" id="logo">CITY KNOWLEDGE</a></h1>
 
 					<!-- Nav -->
 					<nav id="nav">
@@ -69,7 +69,9 @@
 				</div>
 
 			</header>
-
+			<div class="12u">
+				<a id="bloquepostal" href="#main-wrapper">Ir a contenido de pÃ¡gina</a>
+			</div>
 		</div>
 	</div>
 
@@ -87,6 +89,7 @@
 							<h2>Envia una postal de este maravilloso lugar</h2>
 						</header>
 
+
 						<div id="contenido">
 
 							<form name="enviarPostal" method="get" action="postal.html">
@@ -101,7 +104,7 @@
 											<label for="nombre">Nombre: *</label>
 										</td>
 										<td>
-											<input  name="nombre" id="nombre" placeholder="Tu nombre" maxlength="50" size="25" required="true" title="Su nombre" type="text" style= "border: 1px solid #666666";>
+											<input id="nombre" name="nombre" placeholder="Tu nombre" maxlength="50" size="25" required="true" title="Su nombre" type="text">
 										</td>
 									</tr>
 									<tr>
@@ -109,7 +112,7 @@
 											<label for="email">Email de tu amigo o familiar: *</label>
 										</td>
 										<td>
-											<input name="email" id="email" placeholder="Email" maxlength="80" size="35" required="true" title="Email de su amigo" type="email" style= "border: 1px solid #666666";>
+											<input name="email" placeholder="Email" maxlength="80" size="35" required="true" title="Email de su amigo" type="email">
 										</td>
 									</tr>
 									</tbody>
@@ -119,7 +122,7 @@
 								<div class="row">
 									<div class="col-md-6" id="postal_1">
 										<figure>
-											<img src="./images/postal_1.jpg" width="375px" height="275px" alt="Selecciona la imagen de tu postal">
+											<img src="./images/postal_1.jpg" width="375px" height="275px" alt="Selecciona la imagen de tu postal" title="Hogares junto al canal">
 										</figure>
 										Hogares junto al canal
 									</div>
@@ -127,9 +130,9 @@
 
 									<div class="col-md-6" id="postal_2">
 										<figure>
-											<img src="./images/postal_2.jpg" width="375px" height="275px" alt="Selecciona la imagen de tu postal">
+											<img src="./images/postal_2.jpg" width="375px" height="275px" alt="Selecciona la imagen de tu postal" title="Red Lights District">
 										</figure>
-										Red Ligths Districts
+										Red Lights District
 									</div>
 
 								</div>
@@ -139,7 +142,7 @@
 								<div class="row">
 									<div class="col-md-6" id="postal_3">
 										<figure>
-											<img src="./images/postal_3.jpg" width="375px" height="275px" alt="Selecciona la imagen de tu postal">
+											<img src="./images/postal_3.jpg" width="375px" height="275px" alt="Selecciona la imagen de tu postal" title="Luces en el canal">
 										</figure>
 										Luces en el canal
 									</div>
@@ -147,27 +150,26 @@
 
 									<div class="col-md-6" id="postal_4">
 										<figure>
-											<img src="./images/postal_4.jpg" width="375px" height="275px" alt="Selecciona la imagen de tu postal">
+											<img src="./images/postal_4.jpg" width="375px" height="275px" alt="Selecciona la imagen de tu postal" title="I amsterdam">
 										</figure>
 										I amsterdam
 									</div>
 
 								</div>
 
-								<table>
+								<table summary="Elige una postal y pon un comentario">
+									<caption>Selecciona una postal</caption>
 									<tbody>
 									<tr>
 										<th></th>
 									</tr>
 									<tr>
 										<td>
-											<label for="postal" id="postal" name="postal">Seleccione la postal: *</label>
+											<label for="postal" name="postal">Seleccione la postal: *</label>
 										</td>
 										<td>
 
-											<select name="postal" title="Postales" style="width: auto; border: 1px solid #666666"
-													size="1" required="true"
-													type="text">
+											<select id="postal" name="postal" title="Postales" size="1" required="true" type="text" title="Seleccione la postal">
 												<option selected disabled>
 												</option>
 												<option value="images/postal_1.jpg">
@@ -191,7 +193,7 @@
 											<label for="comments">Mensaje: *</label>
 										</td>
 										<td>
-											<textarea title="Comentarios" name="comments" placeholder="Comentarios" maxlength="300" cols="50" rows="5" style="resize:none; border: 1px solid #666666" required="true"></textarea>
+											<textarea id="comments" title="Comentarios" name="comments" placeholder="Comentarios" maxlength="300" cols="50" rows="5" style="resize:none;" required="true"></textarea>
 										</td>
 									</tr>
 									<div>
@@ -271,4 +273,4 @@
 <script src="assets/js/main.js"></script>
 
 </body>
-</html>	
+</html>

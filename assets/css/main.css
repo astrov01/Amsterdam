@@ -2430,3 +2430,31 @@ figure:hover img {
 	text-align: center;
 }
 
+#bloqueindex{
+
+	align-content: center;
+	text-align: center;
+	font-size: large;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#bloquequehacer{
+	align-content: center;
+	text-align: center;
+	font-size: large;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#bloquetransporte{
+	align-content: center;
+	text-align: center;
+	font-size: large;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#bloquepostal{
+	align-content: center;
+	text-align: center;
+	font-size: large;
+	font-family: 'Open Sans', sans-serif;
+}
